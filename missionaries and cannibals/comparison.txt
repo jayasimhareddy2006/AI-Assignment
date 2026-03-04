@@ -1,0 +1,14 @@
+Performance Comparison of Search Algorithms
+
+Algorithm    Complete    Optimal    Time Complexity        Space Complexity
+BFS          Yes         Yes        O(b^d)                  O(b^d)
+DFS          No          No         O(b^m)                  O(bm)
+UCS          Yes         Yes        O(b^(1+C*/ε))           Large
+DLS          No          No         O(b^l)                  O(bl)
+IDDFS        Yes         Yes        O(b^d)                  O(bd)
+
+Where:
+b = branching factor
+d = depth of solution
+m = maximum depth
+l = depth limit
